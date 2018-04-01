@@ -1,0 +1,6 @@
+
+.gitignore
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/php_framework.iml
+.idea/workspace.xml
