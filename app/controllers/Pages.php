@@ -10,7 +10,17 @@ class Pages
 {
     public function __construct()
     {
-        echo 'Pages Loaded';
+        echo 'pages loads ';
+    }
+
+    public function index()
+    {
+        echo 'index calls';
+    }
+
+    public function about($id)
+    {
+        echo $id;
     }
 
 }
