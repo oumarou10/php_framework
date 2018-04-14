@@ -6,7 +6,7 @@
  * Time: 14:05
  */
 
-class Pages
+class Pages extends Controller
 {
     public function __construct()
     {
@@ -15,7 +15,9 @@ class Pages
 
     public function index()
     {
-        echo 'index calls';
+        $data = ['title' => 'Welcome'];
+
+        $this->view('pages/index', $data);
     }
 
     public function about($id)
